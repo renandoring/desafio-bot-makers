@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>BotMakers</title>
+
 </head>
+
 <body>
-    
+    <div>
+        <h1>Welcome to BotMakers</h1>
+        <form id="botId" action="">
+            <label for="botName">Dado de entrada:</label>
+            <input type="text" id="botName" name="botName" required><br><br>
+
+            <button type="submit">EXECUTAR TESTES</button> <br>
+            <button type="button" id="resetBtn" style="margin-top:10px;">Resetar</button>
+        </form>
+        <div id="result"></div>
+    </div>
 </body>
 </html>
